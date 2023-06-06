@@ -9,7 +9,7 @@ public class Desafio1_Modulo2 {
 
 
         Random random = new Random();
-        int quantidadeNumeros = 5; // Altere o valor para gerar mais ou menos números
+        int quantidadeNumeros = 5;
         int pontos = 0;
 
         System.out.println("-----------------------------------------------------------------------------");
@@ -21,11 +21,7 @@ public class Desafio1_Modulo2 {
         System.out.println("-----------------------------------------------------------------------------");
         for (int i = 0; i < quantidadeNumeros; i++) {
             int numeroGerado = random.nextInt(10) + 1;
-            // Ao adicionar + 1 ao resultado gerado, está ajustando o
-            // intervalo para ser de 1 (inclusivo) a 10 (inclusivo).
-            // Isso ocorre porque ao adicionar 1, o menor número possível se torna 1, e o maior número possível se torna 10.
-            //System.out.println("Número gerado: " + numeroGerado);
-            //Confirmando se o codigo está ok
+
 
             Scanner entrada = new Scanner(System.in);
             System.out.println("Digite um número: ");
